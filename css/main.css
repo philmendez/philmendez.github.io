@@ -98,7 +98,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
    .navbar-brand{
-     display: inline-block;
+    display: inline-flex;
+    justify-content: flex-start;    
     color: #333;    
     font-weight: bold;
 }
