@@ -97,16 +97,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  .navbar-brand {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 1.2em;
-    color: #999;
-    }
-
-   body {  
-    margin: 60px auto;
-    width: 70%;
+body {  
+  margin: 60px auto;
+  width: 70%;
 }
+
+.navbar-brand {
+  margin-left: auto;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: .8em;
+  color: #333;
+  font-weight: bold;
+  }
+  
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -115,6 +118,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
+    align-items: center;  
     margin-right: 20px;
 }
 a {
