@@ -97,7 +97,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    body {
+  .navbar-brand {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.2em;
+    color: #999;
+    }
+
+   body {  
     margin: 60px auto;
     width: 70%;
 }
