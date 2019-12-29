@@ -99,8 +99,7 @@ textarea {
    ========================================================================== */
 body {  
   margin: 60px auto;
-  width: 70%;
-}
+  width: 70%;}
 
 .navbar-brand {
   margin-left: auto;
@@ -241,7 +240,12 @@ ul.posts li {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
-  
+
+  .container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
