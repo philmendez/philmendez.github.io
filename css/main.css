@@ -106,11 +106,10 @@ textarea {
   text-align: center;
   padding: 5px;
   box-sizing: border-box;
-}
-#page-nav ul li{
   color: #333;
   text-decoration: none;
   list-style: none;
+  font-weight: bold;
 }
 #page-nav ul a{
   color: #333;
@@ -124,12 +123,13 @@ li:hover {
 }
 #page-nav label, #hamburger {
   display: none;
-}
+  }
 /* Show Hamburger */
 #page-nav label {
-  display: inline-block;
+  display: flex;
+  position: stickly;  
   color: #333;
-  background: #fff;
+  background: rgb(255, 216, 133);
   font-style: normal;
   font-size: 1.2em;
   padding: 10px;
