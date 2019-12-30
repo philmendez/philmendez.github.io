@@ -103,15 +103,19 @@ textarea {
 }
 #page-nav ul li {
   display: inline-block;
-  text-align: center;
-  padding: 10px;
+  text-align: right;
+  padding: 5px;
   box-sizing: border-box;
 }
 #page-nav ul li a {
   color: #333;
   text-decoration: none;
 }
-
+a:hover {
+  background-color: yellow;
+  opacity: 0.6;
+  transition: 0.3s;
+}
 #page-nav label, #hamburger {
   display: none;
 }
@@ -129,9 +133,6 @@ textarea {
 /* Break down menu items into vertical */
 #page-nav ul li {
   display: block;
-}
-#page-nav ul li {
-  border-top: 1px solid #333;
 }
 
 /* Toggle show/hide menu on checkbox click */
