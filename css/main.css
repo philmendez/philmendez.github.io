@@ -109,6 +109,10 @@ h1 a, p {
   text-decoration: none;
   color: black;
 }
+
+h1 a:hover {
+  color:black;
+}
 body h1 > span {
   text-transform: none;
   opacity: 0.5;
