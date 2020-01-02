@@ -179,7 +179,7 @@ body input ~ nav > ul {
 body input ~ nav > ul > li {
   opacity: 0;
   transition: .5s;
-  transition-delay: .5s;
+  transition-delay: 0s;
 }
 body input ~ nav > ul > li > a {
   text-decoration: none;
@@ -197,8 +197,8 @@ body input:checked ~ nav {
 }
 body input:checked ~ nav > ul > li {
   opacity: 1;
-  transition: 1.5s;
-  transition-delay: 0.2s;
+  transition: .5s;
+  transition-delay: 0s;
 }
 
 /* ==========================================================================
