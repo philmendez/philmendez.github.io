@@ -216,7 +216,11 @@ body input:checked ~ nav > ul > li {
   justify-content: center;
   margin: 10px;
   }
-/* ==========================================================================
+
+  .home {
+    height: 80vh;
+  }
+f/* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
