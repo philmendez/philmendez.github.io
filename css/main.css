@@ -223,7 +223,6 @@ body input:checked ~ nav > ul > li {
 
   .work {
     height: 100%;
-    background-color: #fff;
    }
 
    .work-section-title {
@@ -238,10 +237,14 @@ body input:checked ~ nav > ul > li {
   }
 
   .img-small {
-    max-height: 100px;
-    max-width: 150px;
+    max-height: 200px;
+    max-width: 250px;
+    border-radius: 5%;
   }
 
+  footer {
+    margin-top: 400px;
+  }
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
