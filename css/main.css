@@ -208,7 +208,7 @@ body input:checked ~ nav > ul > li {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.center {
+.center-home {
   height: 450px;
   display: flex;
   text-align: center;
@@ -218,6 +218,10 @@ body input:checked ~ nav > ul > li {
   }
 
   .home {
+    height: 80vh;
+  }
+
+  .work {
     height: 80vh;
   }
 f/* ==========================================================================
