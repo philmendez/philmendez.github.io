@@ -227,7 +227,7 @@ body input:checked ~ nav > ul > li {
    }
 
    .work-section-title {
-     padding-top: 30px;
+     padding-top: 40px;
      margin: 0px;
    }
 
@@ -238,7 +238,7 @@ body input:checked ~ nav > ul > li {
   }
 
   .img-small {
-    max-height: 50px;
+    max-height: 100px;
     max-width: 150px;
   }
 
