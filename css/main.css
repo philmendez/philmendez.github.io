@@ -241,9 +241,13 @@ body input:checked ~ nav > ul > li {
     max-width: 250px;
     border-radius: 5%;
   }
-
+  
   footer {
-    margin-top: 400px;
+    height: 20vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 50px;
   }
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
