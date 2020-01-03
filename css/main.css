@@ -222,9 +222,27 @@ body input:checked ~ nav > ul > li {
   }
 
   .work {
-    height: 80vh;
+    height: 100%;
+    background-color: #fff;
+   }
+
+   .work-section-title {
+     padding-top: 30px;
+     margin: 0px;
+   }
+
+   .work-section-description {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
   }
-f/* ==========================================================================
+
+  .img-small {
+    max-height: 50px;
+    max-width: 150px;
+  }
+
+/* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
