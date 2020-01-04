@@ -223,25 +223,33 @@ body input:checked ~ nav > ul > li {
 
   .work {
     height: 100%;
-   }
+    }
 
    .work-section-title {
-     padding-top: 40px;
+     padding-top: 50px;
      margin: 0px;
    }
 
    .work-section-description {
     padding-top: 0px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: space-between;
   }
 
-  .project-border {
-    border: 1;
+  .project-title {
+    display: inline-block;
+    vertical-align: top;
   }
-   .img-small {
-    max-height: 200px;
-    max-width: 250px;
+
+  .project-description {
+    position: relative;
+  }
+
+  .img-small {
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 5%;
   }
   
   footer {
