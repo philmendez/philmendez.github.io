@@ -237,20 +237,22 @@ body input:checked ~ nav > ul > li {
     justify-content: space-between;
   }
 
-  .project-title {
+  .project-info {
     display: inline-block;
     vertical-align: top;
   }
 
   .project-description {
-    position: relative;
+    display: flex;
+    font-size: 1.3rem;
+    width: 150px;
   }
 
   .img-small {
     max-height: 150px;
     max-width: 150px;
     border-radius: 5%;
-  }
+   }
   
   footer {
     height: 20vh;
