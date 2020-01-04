@@ -217,36 +217,32 @@ body input:checked ~ nav > ul > li {
   margin: 10px;
   }
 
-  .home {
-    height: 80vh;
+.home {
+  height: 80vh;
+}
+
+.work {
+  height: 100%;
   }
 
-  .work {
-    height: 100%;
-    }
-
-   .work-section-title {
-     padding-top: 50px;
-     margin: 0px;
-   }
-
-   .work-section-description {
-    padding-top: 0px;
-    padding-bottom: 25px;
-    display: flex;
-    justify-content: space-between;
+  .work-section-title {
+  padding-top: 50px;
+  margin: 0px;
   }
 
-  .project-info {
-    display: inline-block;
-    vertical-align: top;
-  }
+  .work-section-description {
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
 
-  .project-description {
-    display: flex;
-    font-size: 1.3rem;
-    width: 150px;
-  }
+  .work h6 {
+  margin-top: 10px;
+}
+  .work p {
+  margin-bottom: 60px;
+  width: 80%;
+  font-size: 1.3rem;
+}
 
   .img-small {
     max-height: 150px;
