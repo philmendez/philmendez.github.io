@@ -206,7 +206,7 @@ body input:checked ~ nav > ul > li {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Author's homepage styles
    ========================================================================== */
 .center-home {
   height: 450px;
@@ -259,6 +259,10 @@ body input:checked ~ nav > ul > li {
     max-width: 150px;
     border-radius: 2%;
    }
+
+.img-large {
+    max-height: 30vh;
+}
   
   footer {
     height: 20vh;
@@ -378,7 +382,7 @@ body input:checked ~ nav > ul > li {
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
