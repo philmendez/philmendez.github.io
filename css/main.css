@@ -260,16 +260,6 @@ body input:checked ~ nav > ul > li {
     max-width: 150px;
     border-radius: 2%;
    }
-.img-medium {
-  max-width: 50%;
-}
-.img-large {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    display: flex;
-    justify-content: space-around;
-}
   
   footer {
     height: 20vh;
@@ -394,7 +384,7 @@ div img {
 .container {
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
