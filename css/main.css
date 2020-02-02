@@ -279,6 +279,10 @@ body input:checked ~ nav > ul > li {
     padding-bottom: 50px;
   }
 
+div img {
+  margin-bottom: 25px;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
