@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -205,6 +206,11 @@ body input:checked ~ nav > ul > li {
   transition-delay: 0s;
 }
 
+footer {
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+}
 /* ==========================================================================
    Author's homepage styles
    ========================================================================== */
@@ -226,7 +232,7 @@ body input:checked ~ nav > ul > li {
   }
 
   .work-section-title {
-  padding-top: 50px;
+  padding-top: 100px;
   margin: 0px;
   }
 
@@ -260,7 +266,6 @@ body input:checked ~ nav > ul > li {
     max-width: 150px;
     border-radius: 2%;
    }
-
 
 div img {
   margin-bottom: 25px;
