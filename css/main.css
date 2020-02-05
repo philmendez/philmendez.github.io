@@ -260,19 +260,17 @@ body input:checked ~ nav > ul > li {
     max-width: 150px;
     border-radius: 2%;
    }
-  
-  footer {
-    height: 20vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding-bottom: 50px;
-  }
+
 
 div img {
   margin-bottom: 25px;
 }
 
+.bottom-buttons {
+  margin: 5% 25% 5% 25%;
+  display: flex;
+  justify-content: space-around;
+}
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
